@@ -21,6 +21,9 @@ html{
 
 .saudacao{
     text-align: center;
+    background-color: #1B7F79;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 .relogio{
