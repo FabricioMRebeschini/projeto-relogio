@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+html{
+    background-color: #90a0a0;
+}
+
+.container{
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.relogio{
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B7F79;
+    border-radius: 10px;
+    border:  3px solid yellow;
+}
+.ico{
+    font-size: 30px;
+    color: #FF4858;
+}
+.number-hora{
+    font-size: 30px;
+    margin-top: 3px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    font-size: 20px;
+    font-weight: normal;
+    color: #333;
+}
+
